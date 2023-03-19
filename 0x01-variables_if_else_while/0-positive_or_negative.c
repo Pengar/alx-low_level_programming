@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** main - betty style doc for function main goes there
+/** main - betty style doc for function main goes there.
  *
  * return: 0 on success
  */
-int main(void)
+int main(void
+		)
 {
 	int n;
 
@@ -13,16 +14,17 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n < 0)
-	{
-	        printf("%d is %s\n", n, "negative");
-        }
+{
+	printf("%d is %s\n", n, "negative");
+}
 	else if (n > 0)
-	{
-	          printf("%d is %s\n", n, "postive");
-	}
+{
+	printf("%d is %s\n", n, "postive");
+}
 	else
-	{
-	         printf("%d is %s\n", n, "zero");
-	}
+{
+printf("%d is %s\n", n, "zero");
+}
 	return (0);
 }
+
