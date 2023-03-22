@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
- * main - changed to while loop
- * Description: print _putchar
- * return: 0
+ * Description: main - Write a program that prints _putchar.
+ * return: always 0 (success)
  */
-int main(void)
 
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
