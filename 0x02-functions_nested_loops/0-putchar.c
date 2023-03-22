@@ -1,9 +1,11 @@
 #include "main.h"
-
 /**
- * Description: _putchar -  print _putchar followed by a new line
+ * main - print _putchar
+ * written by pengar
+ * return: 0
  */
-void _putchar(void)
+
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
