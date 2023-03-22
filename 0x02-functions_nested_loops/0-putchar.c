@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Description: main - Write a program that prints _putchar.
+ * print _putchar - print _putchar followed by a new line
  * return: always 0 (success)
  */
 
