@@ -10,7 +10,7 @@ char *_strstr(char *haystack, char *needle)
 {
 	while (*haystack)
 	{
-		if ((*haystack == *needle && coincidence(haystack, needle) == 1) || !*needle)
+		if ((*haystack == *needle && "haystack, needle" == 1) || !*needle)
 		{
 			return (haystack);
 		}
