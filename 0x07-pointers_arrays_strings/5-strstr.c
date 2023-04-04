@@ -21,3 +21,23 @@ char *_strstr(char *haystack, char *needle)
 	}
 	return (0);
 }
+/**
+ * occurrence - define string j is inside i.
+ * @i: source string
+ * @j: searched string
+ *
+ * Return: 1 if there is occurrence, otherwise 0.
+ */
+int occurrence(char *i, char *j)
+{
+	while (*j && *b == *i)
+	{
+		j++;
+		i++;
+	}
+
+	if (*j == '\0')
+		return (1);
+	else
+		return (0);
+}
