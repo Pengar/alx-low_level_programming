@@ -4,8 +4,8 @@
 
 /**
  * create_array - create an array of size inclusive char c
- * @size: unsigned int type
- * @c: char type
+ * @size: unsigned int type 
+ * @c: char type                                                           
  * Return: Return pointer to array 
  */
 
