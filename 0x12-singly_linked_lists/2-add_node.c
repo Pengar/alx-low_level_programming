@@ -6,7 +6,7 @@
 /**
  * *add_node - function that adds node at the beginning of a list_t lis
  * @head: Address of the list
- *@str: pointer to string 
+ *@str: pointer to string
  * Return: the address of the new element
  */
 list_t *add_node(list_t **head, const char *str)
