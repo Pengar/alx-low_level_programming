@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 {
 
 	int fd;
-	ssize_t fz;
+	ssize_t sz;
 	char pen[5];
 	char elf[1];
 
@@ -30,13 +30,13 @@ int main(int argc, char *argv[])
 	{
 		dprintf(STDERR_FILENO, "Error: Can't open from file %s\n", argv[1]);
 		exit(98); }
-	fz = read(fd, pen, 4);
-	if (fz == -1)
+	sz = read(fd, pen, 4);
+	if (sz == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98); }
-	fz = lseek(fd, 1, SEEK_SET);
-	fz = read(fd, elf, 1);
+	sz = lseek(fd, 1, SEEK_SET);
+	sz = read(fd, elf, 1);
 	if (elf[0] != 'E')
 		exit(98);
 
